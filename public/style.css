@@ -95,7 +95,7 @@ textarea {
   height: 8vh;
   width: 50%;
   font-size: 16px;
-  font-family: cursive;
+  /* font-family: cursive; */
   background: #ef3f49;
   color: white;
 }
