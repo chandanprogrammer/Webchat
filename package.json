@@ -4,7 +4,7 @@
   "description": "This is a Realtime web chat messanger",
   "main": "index.js",
   "scripts": {
-    "server": "node server"
+    "server": "node server.js"
   },
   "author": "Chandan Kumar",
   "license": "ISC",
