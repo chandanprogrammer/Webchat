@@ -1,0 +1,11 @@
+Step.1 ==> create File: --- index.html
+Step.2 ==> create File: --- server.js
+Step.3 ==> create Folder: --- public
+Step.4 ==> create File in public Folder: --- client.js 
+Step.5 ==> create File in public Folder: --- style.css 
+Step.6 ==> open terminal and run command --- npm init 
+Step.7 ==> run command --- npm install express
+Step.8 ==> run command --- npm install nodemon -D
+Step.9 ==> Change in package.json file "test" replace --- "server_start": "nodemon server" || "server_start": "node server"
+Step.10 ==> Start server to run command --- npm run server
+Step.11 ==> run command --- npm install socket.io

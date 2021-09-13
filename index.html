@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webchat Messenger</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="brand">
+            <img height="40" src="/chat.png" alt="Logo">
+            <h3>Webchat Messenger</h3>
+        </div>
+        <!-- Message Area -->
+        <div class="message_area">
+            <!-- <div class="message incoming">
+                <h4>Rohan:&nbsp; </h4>
+                <p>Hi Johan! How are You? Hi Johan! How are You?</p>
+            </div>
+            <div class="message outgoing">
+                <h4>Johan:&nbsp;</h4>
+                <p>I am Fine.</p>
+            </div> -->
+        </div>
+    </div>
+    <!-- Input Message Type -->
+    <div class="input_message">
+        <textarea name="textarea" id="textarea" cols="30" rows="1" placeholder="Write a Message..."></textarea>
+        <!-- <button class="btn">Send</button> -->
+    </div>
+
+    <!-- Link socket server -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- client.js File link -->
+    <script src="/client.js"></script>
+
+</body>
+
+</html>
